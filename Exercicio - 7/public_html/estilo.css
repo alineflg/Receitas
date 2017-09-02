@@ -1,0 +1,51 @@
+.direita{
+    width: 130px; 
+    height: 90px;
+    border: solid;
+    float: left ;
+    text-align: center
+    
+}
+
+.esquerda{
+    
+    width:1100px;
+    height: 90px;
+    border: solid;
+    float: right;
+    margin-right: 90px;
+    
+}
+
+.corpo{
+    margin-top: 60;
+    width: 1250px;
+    height: 200px;
+    border: solid;
+   float: center;
+}
+
+.rodape{
+    margin-top: 60; 
+    width: 1250px;
+    height: 100px;
+    border: solid;
+   float: center;
+   text-align: right;
+}
+
+.corpodocorpo1{
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+    
+}
+.corpodocorpo2{
+    width: 900px;
+    height: 200px;
+    float: right;
+    
+    
+    
+}
