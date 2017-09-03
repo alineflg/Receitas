@@ -1,3 +1,4 @@
+
 .direita{
     width: 330px; 
     height: 200px;
@@ -9,7 +10,7 @@
 }
 
 .esquerda{
-    margin-right: 300px;
+    margin-right:300px;
     width:570px;
     height: 200px;
     border: solid;
@@ -21,21 +22,23 @@
     margin-top: 20px;
     margin-left: 90px;
     margin-right: 200px;
-    width: 950px;
+     width: 950px;
     height: 300px;
     border: solid;
     float: left; 
+ 
     
 }
 .meio{
-    margin-top: -120px;
+    margin-top: -195px;
     margin-left: 90px;
-    margin-right: 20px;
-    width: 430px;
-    height: 200px;
+    margin-right: 250px;
+    width: 300px;
+    height: 208px;
     float: right; 
-    text-align: right;
+    text-align: left;
 }
+
 
 .rodape{
     margin-top: 500px; 
