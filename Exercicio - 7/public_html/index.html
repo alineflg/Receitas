@@ -9,6 +9,7 @@ and open the template in the editor.
         <meta charset="UTF-8">
         <title><border>IMC Online</title>
         <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        <script src="imc.js"></script>
         
     </head>
     <body>
@@ -31,18 +32,15 @@ and open the template in the editor.
                         <br>
             <div class="corpodocorpo1">
                 <label>Peso:</label>  <br>
-                <input type="number" placeholder="0.00"> <br><br>
+                <input type="number" placeholder="0.00" id="peso"> <br><br>
+                
                 <label>Altura:</label><br>
-               
-                      <input type="number" placeholder="0.00">
-                       <br>
-                        <input type="submit" value="Calcular"/>
-                       <br>
-                                   </div>
+                <input type="number" placeholder="0.00" id="altura"> <br><br>
+            </div>
            <div class="corpodocorpo2">
-               <b> <label > Resultado:</label><br><br>
-                   <input type="text" name="calcular"/><br><br>
-                  
+                <label > Resultado:</label><br><br>
+                <input type="text" name="calcular" id="resultado"/><br><br>
+                  <button type="button" onclick="imc()">Calular</button>
            </div> 
         </div>
         <br>
