@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Humor</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+        <script src="humor.js"></script>
+        </head>
+    <body>
+        
+        <div class="logo"><img src="imagem/logo_1.png" alt="center" width="350" />
+        </div>
+        <div class="nome"><br>
+            <label>Digite seu Nome :</label><input type="text" name="nome" id="nome"><br>
+            <br>
+            <label>Selecione seu Humor :</label>
+            <select id="opcao">
+                           <option value=" "></option>
+                            <option value="Alegre">Alegre</option>
+                            <option value="Triste">Triste</option>
+                            <option value="Bravo">Bravo</option>
+                            <option value="Assustado">Assustado</option>
+                            <option value="Confuso">Confuso</option>
+                        </select>
+            <button type="button" onclick="humor()">ok</button>
+        </div>
+        <div class="imagem">
+            <img src="imagem/imag.png" alt="Imagem indisponivel" name="imagem"/>
+            <p id="resultado">resultado</p>
+        </div>
+    </body>
+</html>
